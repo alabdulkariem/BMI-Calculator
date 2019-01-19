@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--<TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginTop="229dp"
+        android:text="Hello There!" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="246dp"
+        android:onClick="buttonCliked"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/userMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="118dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter your name" />
+        -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="51dp"
+        android:text="BMI Calculator"
+        android:textSize="30dp"
+        android:textColor="#008577" />
+
+    <EditText
+        android:id="@+id/userHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Enter height"
+        android:inputType="number"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="213dp"
+         />
+
+    <EditText
+        android:id="@+id/userWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="141dp"
+        android:ems="10"
+        android:hint="Enter weight"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="289dp"
+        android:onClick="buttonCliked"
+        android:text="Calculator BMI" />
+
+    <TextView
+        android:id="@+id/userBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="377dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginRight="188dp"
+        android:text="BMI"
+        android:textSize="20dp" />
+</RelativeLayout>
